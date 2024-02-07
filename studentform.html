@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Inquiry Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Center the headings */
+    .center-heading {
+      text-align: center;
+    }
+    /* Center the image */
+    .center-image {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Image Placeholder -->
+        <img src="./download.png" alt="Image" class="img-fluid center-image">
+        <!-- Form Heading -->
+        <h2 style="font-family: 'Times New Roman', Times, serif; font-weight: bold;" class="center-heading">Student Inquiry Form</h2>
+        <!-- Inquiry Form -->
+        <form>
+          <!-- Student Name -->
+          <div class="form-group">
+            <label for="studentName">Student Name</label>
+            <input type="text" class="form-control" id="studentName" placeholder="Enter student name">
+          </div>
+          <!-- Parent/Guardian Name -->
+          <div class="form-group">
+            <label for="parentName">Parent/Guardian Name</label>
+            <input type="text" class="form-control" id="parentName" placeholder="Enter parent/guardian name">
+          </div>
+          <!-- Address -->
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Enter address">
+          </div>
+          <!-- Standard -->
+          <div class="form-group">
+            <label for="standard">Standard</label>
+            <input type="text" class="form-control" id="standard" placeholder="Enter standard">
+          </div>
+          <!-- Stream -->
+          <div class="form-group">
+            <label>Stream</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="stream" id="biology" value="biology">
+              <label class="form-check-label" for="biology">Biology</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="stream" id="maths" value="maths">
+              <label class="form-check-label" for="maths">Maths</label>
+            </div>
+          </div>
+          <!-- Student Mobile No -->
+          <div class="form-group">
+            <label for="studentMobile">Student Mobile No</label>
+            <input type="tel" class="form-control" id="studentMobile" placeholder="Enter student mobile no">
+          </div>
+          <!-- Parent Mobile No -->
+          <div class="form-group">
+            <label for="parentMobile">Parent Mobile No</label>
+            <input type="tel" class="form-control" id="parentMobile" placeholder="Enter parent mobile no">
+          </div>
+          <!-- Student Email ID -->
+          <div class="form-group">
+            <label for="studentEmail">Student Email ID</label>
+            <input type="email" class="form-control" id="studentEmail" placeholder="Enter student email id">
+          </div>
+          <!-- Parent Email ID -->
+          <div class="form-group">
+            <label for="parentEmail">Parent Email ID</label>
+            <input type="email" class="form-control" id="parentEmail" placeholder="Enter parent email id">
+          </div>
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <!-- Thank You Message -->
+        <div class="mt-3">
+          <p style="font-size: 30px;font-family: 'Times New Roman', Times, serif;font-weight: bold;"  class="center-heading">Thank You</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
